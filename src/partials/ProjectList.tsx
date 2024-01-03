@@ -1,6 +1,5 @@
 import {
   ColorTags,
-  GradientText,
   Project,
   Section,
   Tags,
@@ -10,11 +9,11 @@ const ProjectList = () => (
   <Section
     title={
       <p className="text-pipboy-light">
-        Blog Posts
+        Featured Blog Posts
       </p>
     }
   >
-    <div className="flex flex-col gap-6">
+    <div className="flex flex-col gap-6 [&>*]:bg-chocolate">
       <Project
         name="Project 1"
         description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse

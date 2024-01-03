@@ -14,18 +14,24 @@ const Hero = () => (
       description={
         <>
           <p>
-            This is a hub both for my career, and for my greater online presence.
-            As such, you may discover a bit more than I might choose to share in an office setting,
-            but won't see content that is NSFW. Mostly you will see career-related ramblings.
+            The purpose of this site is to act as a hub for all things 
+            related to me, Jon Gander. The scope of this site allows a mixure of 
+            personal and professional life, but in practice it will mostly be my
+            career and code ramblings.
           </p>
+          <br/>
           <p>
-            Some parts of the site may be broken, experimental,
-            or subject to frequent change. I will aim to keep the core functionality (this landing page,{' '}
-            <a className="text-pipboy-light hover:underline" href="/posts/">
+            Some parts of the site may be broken, experimental, or subject to 
+            frequent change. This is intentional, as this environment allows for
+            valuable learning from low-risk failure, and easy corrective 
+            iteration. That said, I will aim to keep the core functionality 
+            (this page and the {' '}
+            <a className="text-pipboy-light hover:underline" href="/blog/">
               blog
             </a>) 
             simple, stable, and fast.
           </p>
+          <br />
           <p>
             Enjoy!
           </p>
@@ -33,9 +39,11 @@ const Hero = () => (
       }
       avatar={
         <img
-          className="h-60 w-60"
+          className="h-svh w-72"
           src="/assets/images/me.jpeg"
-          alt="Avatar image"
+          alt="Informal headshot of a man (Jon Gander), splattered with mud, 
+          wearing a Superman hat, standing in front of a Hägglunds carrier 
+          vehicle"
           loading="lazy"
         />
       }
