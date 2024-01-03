@@ -41,9 +41,9 @@ const Hero = () => (
         <img
           className="h-svh w-72"
           src="/assets/images/me.jpeg"
-          alt="Informal headshot of a man (Jon Gander), splattered with mud, 
-          wearing a Superman hat, standing in front of a Hägglunds carrier 
-          vehicle"
+          alt="Informal headshot of Jon Gander splattered with mud, 
+          wearing a Superman hat, standing in front of a Hägglunds civilian  
+          carrier vehicle"
           loading="lazy"
         />
       }
