@@ -1,4 +1,38 @@
-# Astro Boilerplate with TypeScript and Tailwind CSS [![Twitter](https://img.shields.io/twitter/url/https/twitter.com/cloudposse.svg?style=social&label=Follow%20%40Ixartz)](https://twitter.com/ixartz)
+# Astro Portfolio (Version 1)
+Astro blog template by [Ixartz](https://github.com/ixartz), modified by me
+before I decided to build my own Astro site from the ground up.
+
+## Archival Notes
+I abandoned this version for a few reasons which can mostly be summed up by
+the fact that this template did a lot of things that I didn't need and that I
+found were causing friction while getting my site published.
+
+One of the challenges was Tailwind CSS, which I had never used in the past.
+There were a few times where a new CSS style wouldn't have any effect, and I
+couldn't tell whether the issue was a gap in my CSS knowledge, an issue with
+Astro, or an issue with Tailwind. By moving away from this framework, I was able
+to eliminate Tailwind CSS as a variable, and was able to debug more easily
+with a simpler stack.
+
+The use of Typescript in this template was similarly cumbersome to me. I like
+the concept of Typescript, but I want to spend more time writing Javascript
+before I give Typescript more consideration. By creating my own Astro site
+without this template, I was more easily able to focus.
+
+A nice benefit of abandoning this is that I now have
+[my own template](https://github.com/joneiros/astro-template) that I'm
+pleased with.
+That said, If you're looking for something ready out-of-the-box and you're
+familiar with and like both Tailwind CSS and Typescript, I definitely recommend
+checking out Ixartz's template!
+
+---
+
+---
+
+---
+
+## Astro Boilerplate with TypeScript and Tailwind CSS [![Twitter](https://img.shields.io/twitter/url/https/twitter.com/cloudposse.svg?style=social&label=Follow%20%40Ixartz)](https://twitter.com/ixartz)
 
 🚀 Astro Boilerplate is starter code for your blog or portfolio based on Astro
 with Tailwind CSS 3.0. ⚡️ Made with Astro, TypeScript, ESLint, Prettier,
